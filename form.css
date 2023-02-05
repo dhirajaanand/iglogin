@@ -1,0 +1,202 @@
+*{
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+}
+/*nav bar*/
+.nav{
+	width: 100%;
+	position: sticky;
+	top: 0%;
+	display: flex;
+	align-items: center;
+	font-size: 15px;
+	box-shadow: 0 1px 10px grey;
+	background: white;
+}
+.logo{
+	margin-left: 9%;
+}
+.leftlinks a , .boxlinks a , .signin a{
+	color: grey;
+}
+.leftlinks{
+	margin-left: 11%;
+	width: 30%;
+	display: flex;
+	justify-content: space-between;
+}
+.midlinks{
+	background: blanchedalmond;
+}
+.boxlinks{
+	width: 25%;
+	height: 35px;
+	margin-left: 1%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+}
+.boxlinks a, .signin a{
+	border-radius: 7px;
+} 
+.boxlinks a{
+	color: whitesmoke;
+	padding: 0 6%;
+}
+.signin a{
+	color: grey;
+	font-size: 17px;
+}
+.boxli{
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 7px;
+	background: #2f2ba1;
+
+}
+.signin{
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 30%;
+	border: solid 1px #2f2ba1;
+	border-radius: 7px;
+
+}
+/* 2nd row */
+.row2{
+	display: flex;
+	justify-content: row;
+	align-items: center;
+	height: 60px;
+}
+.dropdown{
+	margin-left: 10%;
+	position: relative;
+ 	display: inline-block;
+ 	z-index: -1;
+
+}
+.dropbtn {
+  background-color: #2f2ba1;
+  color: white;
+  padding: 11px;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+}
+.dropdown a:hover {background-color: #ddd;}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.show {display: block;}
+
+.lin div{
+  width: 16px;
+  height: 2px;
+  background-color: whitesmoke;
+  margin: 3px 0;
+  margin-left: 10px;
+  border-radius: 2px;
+}
+
+.dropbtn{
+	display: flex;
+	justify-content: row;
+}
+.csearch{
+ background-color: white;
+  padding: 11px;
+  font-size: 15px;
+  border-radius: 7px;
+  border: #2f2ba1 solid 1px;
+  width: 83%;
+  
+}
+.psearch{
+	margin-left: 4%;
+	width: 30%;
+}
+.conbtn{
+	padding: 11px;
+	font-size: 15px;
+	border-radius: 7px;
+	border: solid 2px  #2f2ba1;
+	background-color: white;
+	font-weight: 600;
+}
+.contact{
+	margin-left: 30%;
+}
+/*row3*/
+.row3{
+	display: flex;
+	justify-content: row;
+	height: 400px;
+	padding: 4% 8%;
+}
+.crap{
+	background:  #2f2ba1;
+	width: 60%;
+}
+.login{
+	background: rgba(0, 0, 0, 0.03);
+	width: 40%;
+	padding-top: 5%;
+	font-family: 'Noto Sans Symbols', sans-serif;
+}
+.login h3{
+	color: blue;
+	display: flex;
+	justify-content: center;
+}
+.top{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 3%;
+}
+.top input{
+	width: 100%;
+	margin: 8px 0;
+	padding: 8px 0;
+	border: solid 1px grey;
+	border-radius: 4px;
+}
+.mid button{
+	padding: 4px 38px;
+	background-color: #2f2ba1;
+	font-size: 17px;
+	color: white;
+	margin-left: 6%;
+}
+.mid a{
+	margin-left: 14%;
+	color: #039dfc;
+}
+.register{
+	margin: 3% 0 0 3%;
+}
+.register a{
+	color: #039dfc;
+}
